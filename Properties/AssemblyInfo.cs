@@ -1,16 +1,16 @@
 ﻿using System.Reflection;
-using bonelab_template;
+using Loadouts;
 using MelonLoader;
 
-[assembly: AssemblyTitle(bonelab_template.Main.Description)]
-[assembly: AssemblyDescription(bonelab_template.Main.Description)]
-[assembly: AssemblyCompany(bonelab_template.Main.Company)]
-[assembly: AssemblyProduct(bonelab_template.Main.Name)]
-[assembly: AssemblyCopyright("Developed by " + bonelab_template.Main.Author)]
-[assembly: AssemblyTrademark(bonelab_template.Main.Company)]
-[assembly: AssemblyVersion(bonelab_template.Main.Version)]
-[assembly: AssemblyFileVersion(bonelab_template.Main.Version)]
-[assembly: MelonInfo(typeof(bonelab_template.Main), bonelab_template.Main.Name, bonelab_template.Main.Version, bonelab_template.Main.Author, bonelab_template.Main.DownloadLink)]
+[assembly: AssemblyTitle(Loadouts.Main.Description)]
+[assembly: AssemblyDescription(Loadouts.Main.Description)]
+[assembly: AssemblyCompany(Loadouts.Main.Company)]
+[assembly: AssemblyProduct(Loadouts.Main.Name)]
+[assembly: AssemblyCopyright("Developed by " + Loadouts.Main.Author)]
+[assembly: AssemblyTrademark(Loadouts.Main.Company)]
+[assembly: AssemblyVersion(Loadouts.Main.Version)]
+[assembly: AssemblyFileVersion(Loadouts.Main.Version)]
+[assembly: MelonInfo(typeof(Loadouts.Main), Loadouts.Main.Name, Loadouts.Main.Version, Loadouts.Main.Author, Loadouts.Main.DownloadLink)]
 [assembly: MelonColor(System.ConsoleColor.White)]
 
 // Create and Setup a MelonGame Attribute to mark a Melon as Universal or Compatible with specific Games.
